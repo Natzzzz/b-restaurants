@@ -1,0 +1,43 @@
+#navmenu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #F2ECE4;
+    z-index: -1;
+}
+
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    z-index: 1000;
+  }
+   
+    #logo {
+        height: 4vw;
+        filter: invert(97%) sepia(86%) saturate(380%) hue-rotate(296deg) brightness(107%) contrast(90%);
+        /* lien de fou : https://codepen.io/sosuke/pen/Pjoqqp */
+    }
+      
+    .left {
+        float: left;
+    }
+
+
+    #menuLinks {
+        position: absolute;
+        z-index: 10001;
+        display: block;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .link {
+        text-align: center;
+        font-size: 4vw;
+        display: block;
+    }
