@@ -1,6 +1,116 @@
-body {
-    margin: 20px 20px 20px 20px;
-    background-color: black;
-    font-family: sans-serif;
-}
+/* GENERAL */
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+    @font-face {
+        font-family: 'Sucrose';
+        src: url("fonts/Sucrose-BoldFour.ttf")
+    }
 
+    body {
+        /* margin: 40px 40px 40px 40px;*/
+        background-color: black;
+        font-family: Roboto;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 40px;
+        margin-right: 20px;
+    }
+    
+    /* enlever box autour de sélection */
+    *:focus {
+        outline: none;
+    }
+    
+
+/* ATTRACT-HOVER */
+
+    .attract-hover {
+        display: inline-block;
+    }
+    
+    .attract-hover-easing {
+        transition: all 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940);
+    }
+    
+    
+    /* The code below is not needed to make the plugin work */
+    
+    .button {
+        border-radius: 100%;
+        height: 70px;
+        width: 70px;
+        color: #FFF;
+        font-size: 30px;
+        text-decoration: none;
+        line-height: 1;
+    }
+
+    .caption-home  {
+        font-family: Sucrose;
+        color: white;
+        font-size: 200px;
+        line-height: 150px;
+        text-transform: uppercase;
+        position: absolute;
+        left: 12%;
+    }
+
+    @media only screen and (max-device-width: 800px) {
+        .caption-home {
+            margin-top: 40%;
+            font-size: 150px;
+            line-height: 140px;
+        }
+      }
+
+    .burger {
+        margin-top: 85px;
+        position: absolute;
+        right: 9%;
+    }
+
+    @media only screen and (max-device-width: 800px) {
+        .burger {
+            height: 650px;
+            margin-top: 80%;
+        }
+      }
+
+    .soonSw {
+        color: white;
+        font-size: 50px;
+        position: absolute;
+        left: 12%;
+        margin-top: 33%;
+        font-family: Sucrose;
+    }
+
+    .linksHome {
+        color: white;
+    }
+
+    .section-box {
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .beers {
+        background-color: black;
+        width: 100%;
+        height: 100%;
+        right: 0;
+        left: 0;
+    }
+
+    
+    @media only screen and (max-device-width: 800px) {
+        .beers {
+            width: 200%;
+        }
+      }

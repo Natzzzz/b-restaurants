@@ -1,43 +1,78 @@
-#navmenu {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: #F2ECE4;
-    z-index: -1;
-}
 
 #navbar {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
     list-style-type: none;
-    margin: 0;
     padding: 0;
     overflow: hidden;
-    z-index: 1000;
+    z-index: 5;
   }
+
+@media only screen and (max-device-width: 800px) {
+#navbar {
+    width: 100%;
+    right: 0;
+}
+}
    
-    #logo {
-        height: 4vw;
-        filter: invert(97%) sepia(86%) saturate(380%) hue-rotate(296deg) brightness(107%) contrast(90%);
-        /* lien de fou : https://codepen.io/sosuke/pen/Pjoqqp */
-    }
-      
-    .left {
-        float: left;
-    }
+#logo {
+    height: 5%;
+    filter: invert(97%) sepia(86%) saturate(380%) hue-rotate(296deg) brightness(107%) contrast(90%);
+    /* lien de fou : https://codepen.io/sosuke/pen/Pjoqqp */
+}
+    
+.left {
+    float: left;
+}
 
+#links {
+    width: 100%;
+    text-align: center;
+  }
 
-    #menuLinks {
-        position: absolute;
-        z-index: 10001;
-        display: block;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
+#social {
+    position: fixed;
+    bottom: 5%;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    transition: 0.3s ease;
+}
 
-    .link {
-        text-align: center;
-        font-size: 4vw;
-        display: block;
+.fab {
+    margin: 10px;
+}
+
+.fab:hover {
+    transition: 0.3s ease;
+    font-size: 33px;
+}
+
+#mySVG {
+    position: absolute;
+    top: 15%;
+    width: 1000px;
+    height: 500px;
+}
+
+#triangle {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: dash 5s linear forwards;
+}
+.path {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: dash 0.2s linear alternate infinite;
+  }
+  
+  @keyframes dash {
+    from {
+      stroke-dashoffset: 1500;
     }
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  

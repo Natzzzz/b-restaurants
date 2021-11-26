@@ -1,0 +1,158 @@
+body {
+    background-color: #F2ECEC;
+    width: 100%;
+}
+
+h1 {
+    position: relative;
+    width: 100%;
+    top: 30%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 118px;
+    line-height: 75%;    
+    text-align: center;
+    color: #000000;
+}
+
+.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+    background-color: black;
+}
+
+#logo {
+    filter: invert(0%) sepia(100%) saturate(0%) hue-rotate(28deg) brightness(98%) contrast(105%);
+}
+
+.imageFt {
+    margin-top: 20%;
+    position: relative;
+    text-align: center;
+    transform: rotate(-5deg);
+}
+
+article {
+    margin-top: 50px;
+    position: absolute;
+    width: 150%;
+    overflow: hidden;
+    min-height: 4em;
+    font-size: 100px;
+  }
+  
+  /* Safari 4.0 - 8.0 */
+  @-webkit-keyframes mymove {
+    from {
+      left: 0;
+    }
+    to {
+      left: -140px;
+    }
+  }
+  
+  @keyframes mymove {
+    from {
+      left: 0;
+    }
+    to {
+      left: -140px;
+    }
+  }
+  
+  
+  .example-right {
+    white-space: nowrap;
+    position: absolute;
+    text-transform: uppercase;
+    -webkit-animation: urmove 8s linear infinite; /* Safari 4.0 - 8.0 */
+    white-space: nowrap;
+    font-family: Roboto;
+    font-weight: bolder;
+    animation: urmove 8s linear infinite alternate;
+    margin: 0px;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+  }
+  
+  /* Safari 4.0 - 8.0 */
+  @-webkit-keyframes urmove {
+    from {
+      right: 0;
+    }
+    to {
+      right: -140px;
+    }
+  }
+  
+  @keyframes urmove {
+    from {
+      right: 0;
+    }
+    to {
+      right: -140px;
+    }
+  }
+  
+  
+  @keyframes early 
+  { from { opacity:1; } to { opacity:0; } }
+  
+  .early {
+      animation:fadeIn ease-in 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+      animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+      animation-duration:1s;
+      animation-delay: 1.5s
+  }
+
+  .banner-wrap {
+      transform: rotate(5deg);
+  }
+
+  .imagesTop {
+      margin-top: 30vw;
+      height: 500px;
+      position: relative;
+  }
+
+  .ft {
+      position: absolute;
+  }
+
+.caption  {
+  margin-top: 20%;
+}
+
+.line {
+  margin-top: 200px;
+}
+
+.centerpls {
+  margin-left: 40%;
+}
+
+svg {
+  position: absolute;
+  width: 320px;
+}
+path {
+  fill: none;
+  stroke: black;
+  stroke-width: 3;
+  stroke-dasharray: 240;
+  stroke-dashoffset: 2000;
+  animation: draw 5s linear backwards;
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0
+  }
+}
+
+.idea {
+  font-size: 40px;
+  width: 35%;
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+}
