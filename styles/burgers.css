@@ -897,11 +897,15 @@ pre.js::before {
     margin-left: 20%;
     text-align: center;
     color: black;
-    font-weight: lighter;
+    font-weight: bold;
     position: absolute;
     width: 60%;
     font-size: 50px;
-    margin-top: 1350px;
+    margin-top: 1200px;
+}
+
+.lighter {
+    font-weight: lighter;
 }
 
 @media only screen and (max-device-width: 800px) {
@@ -909,7 +913,7 @@ pre.js::before {
         display: none;
     } .bourbons {
         height: 200%;
-        width: 200%;
+        width: 140%;
         text-align: center;
     } .bourbox, .pc, .bouright {
         width: 70%;
@@ -934,8 +938,6 @@ pre.js::before {
         font-weight: bold;
     }
 }
-
-
 
 @media only screen and (max-device-width: 800px) {
     .imgDes{

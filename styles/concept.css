@@ -156,3 +156,14 @@ path {
   margin-right: 10px;
   margin-left: 10px;
 }
+
+@media only screen and (max-device-width: 800px) {
+  #navbar {
+    width: 150%;
+  }  
+  .concept-content {
+    width: 150%;
+  } a {
+    font-size: 90px;
+  }
+}

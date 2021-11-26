@@ -125,3 +125,34 @@ setTimeout(function(){
   $('.centerpls').remove();
 }, 
   3000);
+
+  ScrollReveal().reveal('.first', {delay: 200});
+  ScrollReveal().reveal('.second', {delay: 1200});
+
+  ScrollReveal().reveal('.prem', {delay: 400});
+  ScrollReveal().reveal('.dez', {delay: 800});
+  ScrollReveal().reveal('.tro', {delay: 1100});
+
+  ScrollReveal().reveal('.selector-wrap', {delay: 200});
+  ScrollReveal().reveal('.menuDescription', {delay: 800});
+  ScrollReveal().reveal('.selecImg', {delay: 1200});
+
+  ScrollReveal().reveal('.outlined', {delay: 300});
+  ScrollReveal().reveal('.thismonth', {delay: 500});
+
+
+
+  ScrollReveal().reveal('.placebo', {delay: 200});
+  ScrollReveal().reveal('.ipa', {delay: 800});
+
+  ScrollReveal().reveal('.hoppy', {delay: 1500});
+  ScrollReveal().reveal('.hoppybeer', {delay: 1900});
+
+  ScrollReveal().reveal('.bourbtitle', {delay: 200});
+  ScrollReveal().reveal('.bourbox', {delay: 600});
+  ScrollReveal().reveal('.svge', {delay: 1000});
+  ScrollReveal().reveal('.pc', {delay: 2000});
+  ScrollReveal().reveal('.svgee', {delay: 2400});
+  ScrollReveal().reveal('.bouright', {delay: 3000});
+  ScrollReveal().reveal('.goodN', {delay: 3800});
+
