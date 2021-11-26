@@ -154,5 +154,5 @@ setTimeout(function(){
   ScrollReveal().reveal('.pc', {delay: 2000});
   ScrollReveal().reveal('.svgee', {delay: 2400});
   ScrollReveal().reveal('.bouright', {delay: 3000});
-  ScrollReveal().reveal('.goodN', {delay: 3800});
+  ScrollReveal().reveal('.goodN', {delay: 3400});
 
